@@ -1,0 +1,251 @@
+
+			
+			
+			#popupboks {
+			    top: 0px;
+			    left: 0;
+			    position: fixed;
+			    width: 100%;
+			    height: 100%;
+			    background-color: rgba(0, 0, 0, 0.5);
+			    display: none;
+			}
+
+			.popupwrap {
+			    width: 450px;
+			    margin: 50px auto;
+			    text-align: left;
+			}
+
+			.popupindhold {
+			    background-color: #FFF;
+			    padding: 35px;
+			    font-family: 'Work Sans', sans-serif;
+			    color: #e37708;
+                margin-top: -15px;
+                border-radius: 30px;
+                box-shadow: 0px 0px 6px -1px rgba(61,61,61,1);
+			}
+
+			.popupCloseButton {
+			    display: flex;
+			    justify-content: flex-end;
+			    font-family: 'Caveat', cursive;
+			    font-size: 30px;
+			    color: black;
+			    margin-top: -18px;
+			    cursor: pointer;
+			}
+
+			.popupCloseButton > a {
+			    text-decoration: none;
+			    color: black;
+                font-size: 30px;
+			}
+
+
+#overskrift{
+ font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top:-20px;
+    color:#e37708;
+    
+}
+
+#dato {
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+#tekst, #nyhedsbrev {
+    font-family: 'Caveat', cursive;
+    color: black;
+    font-size:20px;
+}
+			.popupwrap,
+			.popupndhold {
+			    -webkit-animation-name: slideInDown;
+			    animation-name: slideInDown;
+			    -webkit-animation-duration: 0.8s;
+			    animation-duration: 0.8s;
+			    -webkit-animation-fill-mode: both;
+			    animation-fill-mode: both;
+			}
+
+			@-webkit-keyframes slideInDown {
+			    0% {
+			        -webkit-transform: translateY(-100%);
+			        transform: translateY(-100%);
+			        visibility: visible;
+			    }
+
+			    100% {
+			        -webkit-transform: translateY(0);
+			        transform: translateY(0);
+			    }
+			}
+
+			@keyframes slideInDown {
+			    0% {
+			        -webkit-transform: translateY(-100%);
+			        transform: translateY(-100%);
+			        visibility: visible;
+			    }
+
+			    100% {
+			        -webkit-transform: translateY(0);
+			        transform: translateY(0);
+			    }
+			}
+
+			#popupboks {
+			     
+			        -webkit-animation-name: fadeIn;
+			        animation-name: fadeIn;
+			        -webkit-animation-duration: 1s;
+			        animation-duration: 1s;
+			        -webkit-animation-fill-mode: both;
+			        animation-fill-mode: both;
+			    }
+
+			    @-webkit-keyframes fadeIn {
+			        0% {
+			            opacity: 0;
+			        }
+
+			        100% {
+			            opacity: 1;
+			        }
+			    }
+
+			    @keyframes fadeIn {
+			        0% {
+			            opacity: 0;
+			        }
+
+			        100% {
+			            opacity: 1;
+			        }
+			    }
+			
+
+
+
+
+#indholdanimation{
+    width:100%;
+    float: right;
+    z-index: 0;
+    position: absolute;
+    left: 138px;
+    top:80px;
+}
+
+#tekst {
+    float: left;
+    width:69%;
+    z-index: 100;
+    margin-right: 100px;
+    margin-top: -3px;
+}
+
+#nyhedsbrev {
+    font-size: 17.3px;
+    z-index: 100;
+    float:left;
+    position: relative;
+    margin-top:-10px;
+}
+
+#email {
+    font-family: 'Caveat', cursive;
+    color:#e37708;
+}
+
+input[type=text], select {
+  width: 65%;
+    height:35px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-sizing: border-box;
+box-shadow: inset 6px 6px 21px #f0f0f0, 
+            inset -6px -6px 21px #ffffff;
+    margin-top:-10px;
+    
+}
+
+#tilmeldknap {
+  width: 65%;
+    height: 35px;
+  background-color: #fac082;
+  color: #e37708;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+    z-index: 400;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+box-shadow: 5px 5px 10px #e3e3e3, 
+             -5px -5px 10px #ffffff;
+    padding-top: 3px;
+}
+
+#tilmeldknap:hover {
+  background-color: #fac082;
+    width: 65%;
+        color: #e37708;
+box-shadow: inset 5px 5px 10px #dfab74, 
+            inset -5px -5px 10px #ffd590;
+}
+
+
+    
+
+    @media only screen and (min-width: 768px) and (max-width:1024px) {
+body {
+    zoom: 1.9; 
+    -moz-transform: scale(1.9); 
+    -moz-transform-origin: 0 0;
+}
+        
+    #tekst {
+            font-size: 190%;
+        }
+            #nyhedsbrev {
+            font-size: 165%;
+                padding-top: 85%;
+        }
+        
+        input[type=text], select {
+            width:100%;
+        }
+        
+        #tilmeldknap {
+            width: 100%;
+            font-size: 140%;
+            position: relative;
+            margin-bottom: -10px;
+        }
+        
+                #tilmeldknap:hover {
+            width: 100%;
+  
+        }
+        
+        
+        #email {
+            font-size: 140%;
+            padding-bottom: 20px;
+        }
+        
+        div > #tilmelding {
+            margin-top: -120px;
+            position: relative;
+        }
+    }
+

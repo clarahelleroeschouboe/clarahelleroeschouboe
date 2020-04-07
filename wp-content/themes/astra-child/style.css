@@ -1,0 +1,232 @@
+/*
+ Theme Name:   Astra Child
+ Theme URI:    http://clarahelleroe.dk/storyscaping
+ Description:  Astra Child Theme
+ Author:       Clara Helleroe
+ Author URI:   http://clarahelleroe.dk/storyscaping
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrachild
+*/
+
+.main-header-bar-wrap {
+    display:none;
+}
+
+#menu-main-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 35px;
+  text-decoration-color: black;
+}
+
+.elementor a {
+ color: black;
+}
+
+.elementor a:hover {
+ color: #efb1a6;
+}
+
+.elementor-element.elementor-element-2e65449.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section
+{
+    background-color: #f9fcf8 !important;
+    
+}
+
+.elementor-element.elementor-element-c402436.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section {
+    background-color: #fff6ed !important;
+}
+
+.elementor-element.elementor-element-c8f3748.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section {
+    background-color: #fff3f3 !important;
+}
+
+.menu-main-menu-container {
+   background-color:#e1f0da; 
+   width: 100%;
+   height: 47px;
+   padding: 0;
+   margin: 0;
+   box-shadow: 0px -5px 4px 8px rgba(217,217,217,0.65);
+}
+
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
+    padding: 0;
+}
+
+.elementor-container.elementor-column-gap-default {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: none;
+}
+
+.hfe-site-logo-img.elementor-animation- {
+    margin-top: -80px;
+    width: 70%;
+}
+
+#menu-item-69, #menu-item-83, #menu-item-84, #menu-item-85 {
+    padding-top:5px;
+    @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+    font-family: 'Caveat', cursive;
+    font-size:17px;
+}
+
+#menu-item-83 {
+    padding-right: 100px;
+}
+
+#menu-item-84 {
+    padding-left: 100px;
+}
+
+#menu-item-69 {
+    margin-left:70px;
+}
+
+#menu-item-85 {
+    margin-right:70px;
+}
+
+.swiper-slide-image {
+    width: 67%;
+}
+
+.wp-caption > img:hover {
+   -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+  transition: all .3s ease-in-out;
+  transition-timing-function: ease-out;
+  z-index: 100;
+  opacity: 0.5;
+}
+
+.wp-caption > img:hover:after > #cirkel {
+    display:block;
+    1.0
+}
+
+.wp-caption > img{
+    opacity:1.0;
+}
+
+.wp-caption > img > #cirkel{
+    display: none;
+}
+
+.wp-caption > img:hover: > #cirkel {
+    position: absolute;
+display:none;
+}
+
+#maltcirkel {
+transform: scale(0.29);
+z-index:1000 !important;
+position:relative;
+}
+
+#humlecirkel {
+transform: scale(0.33);
+z-index:1000 !important;
+position:relative;
+}
+
+#kocirkel {
+transform: scale(0.27);
+z-index:1000 !important;
+position:relative;
+}
+
+#brygningcirkel {
+transform: scale(0.31);
+z-index:1000 !important;
+position:relative;
+}
+
+.eael-img-accordion:hover {
+       -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+  transition: all .3s ease-in-out;
+  transition-timing-function: ease-out;
+  z-index: 100;
+}
+
+
+.elementor-78 .elementor-element.elementor-element .eael-img-accordion a:hover::after {
+    border-radius: 50%;
+    box-shadow: 0px 1px 12px -4px rgba(0,0,0,0.5);
+}
+
+.overlay-inner {
+    padding: 10px;
+}
+
+.elementor-78 .elementor-element.elementor-element-11f1b50 .elementor-image img {
+    margin-left: -9.8%;
+    margin-top:85px;
+    z-index:-100;
+    position: absolute;
+}
+
+#flaskeslideshow {
+    width: 135%;
+ position: absolute;
+  left: -25%;
+  top: -3%;
+}
+
+
+
+@media only screen and (min-width: 1300px) {
+body {
+    zoom: 1.2; 
+    -moz-transform: scale(1.2); 
+    -moz-transform-origin: 0 0;
+}
+
+.elementor-78 .elementor-element.elementor-element .eael-img-accordion a:hover::after {
+transform:scale(1.2);
+}
+
+.overlay-inner {
+    transform:scale(1.1);
+}
+
+#maltcirkel, #humlecirkel, #kocirkel, #brygningcirkel {
+    transform:scale(0.3);
+}
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 2100px) {
+    body {
+    zoom: 1.5; 
+    -moz-transform: scale(1.5); 
+    -moz-transform-origin: 0 0;
+}
+
+.elementor-78 .elementor-element.elementor-element .eael-img-accordion a:hover::after {
+transform:scale(1.2);
+}
+
+.overlay-inner {
+    transform:scale(1.1);
+}
+
+#maltcirkel, #humlecirkel, #kocirkel, #brygningcirkel {
+    transform:scale(0.3);
+}
+}
