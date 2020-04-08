@@ -116,7 +116,6 @@
 
 .wp-caption > img:hover:after > #cirkel {
     display:block;
-    1.0
 }
 
 .wp-caption > img{
@@ -127,7 +126,7 @@
     display: none;
 }
 
-.wp-caption > img:hover: > #cirkel {
+.wp-caption > img:hover > #cirkel {
     position: absolute;
 display:none;
 }
@@ -188,6 +187,12 @@ position:relative;
   left: -25%;
   top: -3%;
 }
+
+.some {
+    	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
 
 
 
